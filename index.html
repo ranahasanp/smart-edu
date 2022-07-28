@@ -16,7 +16,7 @@
         <!-- navbar section start -->
         <section>
             <div class="container">
-                <nav class="navbar navbar-expand-lg bg-light">
+                <nav class="navbar fixed-top navbar-expand-lg bg-light">
                     <div class="container">
                         <a class="navbar-brand fw-bold fs-4" href="#">SmartEdu</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -65,7 +65,7 @@
                                 <div class="fs-3 ms-4">
                                     <i class="fa-solid fa-cart-plus"></i>
                                 </div>
-                                <button class=" btn btn-lg btn-primary ms-4 fw-semibold">Register</button>
+                                <button class=" btn btn-lg btn-primary ms-4 fw-semibold" data-bs-toggle="modal" data-bs-target="#edu-modal">Register</button>
                             </ul>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
         </section>
         <!-- navbar section end -->
         <!-- carousel section start -->
-        <section class="">
+        <section>
             <div class="container">
                 <div id="edu-carousel" class="carousel slide " data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -243,6 +243,48 @@
             <button class="btn btn-primary btn-lg d-block mx-auto">See More Course</button>
         </section>
         <!-- course section end -->
+        <!-- E-learnig section start -->
+        <section>
+            <div class="container mx-auto">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card border-0 mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="images/student/elearning.jpg" class="img-fluid rounded-start p-5 w-100" alt="...">
+                                </div>
+                                <div class="col-md-7 d-flex align-items-center ">
+                                    <div class="card-body lh-lg">
+                                        <h2 class="card-title fw-bold fs-1">Explore The elearning
+                                        Institute</h2>
+                                        <p class="card-text">The eLearning Institute is a virtual destination for professionals in various arenas of higher education to meet ongoing
+                                        professional development needs and to gain access to the most current research in academe. The eLearning Institute is an
+                                        excellent source for individuals to publish the latest research and best practices in their respective academic fields
+                                        in higher education and to collaborate, create, innovate, and share with other distinguished educational professionals.</p>
+                                        <div class="d-flex py-5">
+                                            <div class="pe-5 fw-bolder">
+                                                <h2>3.2K+</h2>
+                                                <p>Online Course</p>
+                                            </div>
+                                            <div class="pe-5 fw-bolder">
+                                                <h2>600+</h2>
+                                                <p>Expert member</p>
+                                            </div>
+                                            <div class="pe-5 fw-bolder">
+                                                <h2>1K+</h2>
+                                                <p>Rating & Review</p>
+                                            </div>
+                                            </div>
+                                        </div>
+                                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- E-learnig section end -->
         <!-- Register section start-->
         <section class="my-5">
             <div class="container d-flex justify-content-between bg-info p-5 rounded text-white">
@@ -252,15 +294,119 @@
                         readable content of a page when looking at its layout.</p>
                 </div>
                 <div>
-                    <button class="btn btn-primary btn-lg">Register</button>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#edu-modal">Register</button>
                 </div>
             </div>
         </section>
         <!-- Register section end-->
+        <!-- successful students section start -->
+        <section>
+            
+            <div class="container">
+                <h1 class="fw-bold py-4">Meet Our Successfull <br> Students</h1>
+                <p class="pb-5">This might seem like an obvious place to start, but to be successful, you should make an intentional <br> choice to make the most of your classes and assignments.</p>
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Awlad Hossain</h5>
+                                <p class="card-text">UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Jannatul Islam</h5>
+                                <p class="card-text">Motion Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Imran Hossain</h5>
+                                <p class="card-text">Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Nishi Akter</h5>
+                                <p class="card-text">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-lg btn-primary my-5 d-block mx-auto px-3">View All</button>
+            </div>
+        </section>
+        <!-- successful students section end -->
+        <!-- students feedback section start -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between p-3">
+                                    <i class="fa-solid fa-quote-left fs-1"></i>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </div>
+                                </div>
+                                <p class="card-text">It was a risky decision to switch my career to the IT field because I'm not from science background. I had some basic idea about web development. But self-learning is a very tough task. Especially when you do not have any guidelines anddeadlines.</p>
+                                <div class="d-flex align-items-center ">
+                                    <img class="img-fluid" src="images/student/student-5.png" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="card-title fw-bold mb-1 mt-3">Awlad Hossain</h5>
+                                        <p>UI Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between p-3">
+                                    <i class="fa-solid fa-quote-left fs-1"></i>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="card-text">After taking the course from Programming Hero, I developed a dedication to my work that I did not have before. Also, I learn more about web application technology for my career. Thanks to all the programming-hero team and Jhankar Mahbub's brother for this, I could not have gone to today's position without him.</p>
+                                <div class="d-flex align-items-center ">
+                                    <img class="img-fluid" src="images/student/student-6.png" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="card-title fw-bold mb-1 mt-3">Shanta Akter</h5>
+                                        <p>Graphic Designer</p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!-- students feedback section end -->
         <!-- Question section start -->
         <section>
             <div class="text-center fw-bold">
-                <h1 class="fs-1 py-4 ">Frequently Asked Questions</h1>
+                <h1 class="fs-1 mt-3 py-4 ">Frequently Asked Questions</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
                     at
                     its layout.</p>
@@ -386,8 +532,46 @@
             </div>
         </div>
         <p class="text-white text-center pb-3">© All rights reserved 2025 | SmartEdu</p>
-       
     </footer>
+    <!-- modal start-->
+    <!-- Vertically centered modal -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#edu-modal">
+        Launch demo modal
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="edu-modal" tabindex="-1" aria-labelledby="edu-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fw-bold " id="edu-modalLabel">Registration</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="p-4">
+                        <input class="form-control form-control-lg" type="text" placeholder="First Name"
+                            aria-label=".form-control-lg example"><br>
+                        <input class="form-control form-control-lg" type="text" placeholder="Last Name"
+                            aria-label=".form-control-lg example"><br>
+                        <input class="form-control form-control-lg" type="email" placeholder="Email"
+                            aria-label=".form-control-lg example"><br>
+                        <input class="form-control form-control-lg" type="password" placeholder="Password"
+                            aria-label=".form-control-lg example">
+                        <button type="button" class="btn btn-lg btn-primary my-3">Submit</button>
+                    </form>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- modal start-->
+    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
